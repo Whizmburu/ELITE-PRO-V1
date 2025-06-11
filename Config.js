@@ -3,21 +3,21 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 // Contact details
-global.ownernomer = process.env.OWNER_NOMER || "2348109263390";
+global.ownernomer = process.env.OWNER_NOMER || "254754783683";
 global.ytname = process.env.YT_NAME || "YT: @EliteProTech";
 global.socialm = process.env.SOCIAL_M || "GitHub: EliteProTech";
 global.location = process.env.LOCATION || "Nigeria, Port Harcourt";
 
 // Creator details
-global.ownernumber = process.env.OWNER_NUMBER || '2348109263390';
-global.ownername = process.env.OWNER_NAME || 'ElitePro';
-global.botname = process.env.BOT_NAME || 'ELITE-PRO-V1';
+global.ownernumber = process.env.OWNER_NUMBER || '254754783683';
+global.ownername = process.env.OWNER_NAME || 'Whiz';
+global.botname = process.env.BOT_NAME || 'Whiz Assistant';
 
 // Default settings 
 global.prefa = process.env.PREFIX ? process.env.PREFIX.split(',') : ['', '!', '.', '#', '&'];
 // Settings: true=enable false=disable
-global.autoRecording = process.env.AUTO_RECORDING === 'true';
-global.autoTyping = process.env.AUTO_TYPING === 'true';
+global.autoRecording = process.env.AUTO_RECORDING === 'false';
+global.autoTyping = process.env.AUTO_TYPING === 'false';
 global.autorecordtype = process.env.AUTO_RECORD_TYPE === 'true';
 global.autoread = process.env.AUTO_READ === 'true';
 global.autobio = process.env.AUTO_BIO !== 'false'; // default true
